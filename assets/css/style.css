@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Lemonmilk;
+    src: url('../font/LEMONMILK-Bold.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+}
+
+.nav-bar-box{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.btn-mode{
+    padding: 0.1rem;
+    width: 30%;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-mode:hover{
+    scale: 105%;
+    background-color: #8b8b8b;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.menu-left, .menu-right{
+    width: 40%;
+    padding: 1rem 0;
+}
+
+.menu-left{
+    font-size: 25px;
+    font-family: Lemonmilk;
+    color: #fff;
+}
+
+.menu-right{
+    padding: 1rem;
+    background-color: #FEC000;
+    border-radius: 1rem;
+   
+}
+
+.menu-right h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Lemonmilk;
+}
+
+.img-box img{
+    margin: 2rem 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+label{
+    font-size: 16px;
+    font-family: Lemonmilk;
+}
+
+input{
+    width: 90%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-size: 16px;
+    box-shadow: 1px 1px 9px #000;
+}
+
+.button-box{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn-login{
+    width: 70%;
+    padding: 1rem 0rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Lemonmilk;
+    background-color: #000;
+    color: #fff;
+}
+
+button:hover{
+    scale: 110%;
+    background-color: #8b8b8b;
+}
+
+
+
